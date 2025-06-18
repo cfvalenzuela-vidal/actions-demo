@@ -26,4 +26,4 @@ jobs:
         run: npx jest --ci
       
       - name: Ver entorno
-        run: echo "Entorno actual: ${{ secrets.NODE_ENV }}"
+        run: echo "Entorno actual ${{ secrets.NODE_ENV }}"
